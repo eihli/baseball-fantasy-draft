@@ -34,3 +34,23 @@ year2014res[,3:7] <- year2014diff
 allyears <- rbind(year2012res, year2013res)
 allyears <- rbind(allyears, year2014res)
 
+# TODO:
+# The above code should give you a data frame for all players
+# for each year between 2012 and 2014 with stats for
+# HR, SB, RBI, AVG, and R. The values of each stat should
+# be the difference between each players actual stat and the
+# yearly average. A positive stat means they outperformed the
+# average. A negative stat means they underperformed.
+
+# Group the dataframe by player. Calculate the difference between
+# the 2013 year and the 2012 year, and the 2014 year and the
+# 2013 year. Take the average of that difference.
+# Create a vector of this number.  A postive number
+# means a player's stats are on the rise.
+
+# Add that vector to each players 2014 stats to create
+# a vector of predicted 2015 stats.
+
+# Sort the dataframe by players 2015 stats. 
+# Pick players that are high on this list who also have a high
+# average yearly increase.
