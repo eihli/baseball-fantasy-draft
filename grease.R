@@ -1,9 +1,20 @@
 Batting <- read.csv('lahman/batting.csv')
 Batting$AVG <- Batting$H / Batting$AB
+
 df <- Batting[,c('yearID', 'playerID', 'HR', 'SB', 'RBI', 'AVG', 'R')]
 df <- subset(df, yearID >=2012)
 df <- replace(df, is.na(df), 0)
 year_averages <- aggregate(df[,3:7], list(df$yearID), mean)
+
+# What I want to do here is:
+# For each row in df
+# Subtract the vector of year_averages
+# Where the yearID are equal.
+
+# But I cannot figure out a concise way of doing it.
+# So I process each year individually and then combine
+# them with rbind at the end.
+
 year2012 <- subset(df, yearID == 2012)
 year2013 <- subset(df, yearID == 2013)
 year2014 <- subset(df, yearID == 2014)
