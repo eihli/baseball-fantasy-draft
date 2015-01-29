@@ -24,8 +24,7 @@ that look like this:
 	</tr>
 	<tr>
 		<td>2012</td>
-		<td>john</td>
-		<td>doe</td>
+		<td>john doe</td>
 		<td>80</td>
 		<td>5</td>
 		<td>130</td>
@@ -33,8 +32,7 @@ that look like this:
 	</tr>
 	<tr>
 		<td>2013</td>
-		<td>john</td>
-		<td>doe</td>
+		<td>john doe</td>
 		<td>95</td>
 		<td>6</td>
 		<td>120</td>
