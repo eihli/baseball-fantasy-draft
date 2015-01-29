@@ -11,13 +11,36 @@ TODO: Clean up this readme with simple, precise, actionable steps
 
 So here’s what I’m thinking…
 
-I get a huge database of players and stats that looks like this:
-
-year player HR Stolen RBI AVG
-
-2012 john doe 80 5 130 .289
-
-2013 john doe 95 6 120 .311
+We use the Lahman database to get a table with relevant stats
+that look like this:
+<table>
+	<tr>
+		<td>year</td>
+		<td>player</td>
+		<td>HR<</td>
+		<td>Stolen</td>
+		<td>RBI</td>
+		<td>AVG</td>
+	</tr>
+	<tr>
+		<td>2012</td>
+		<td>john</td>
+		<td>doe</td>
+		<td>80</td>
+		<td>5</td>
+		<td>130</td>
+		<td>.289</td>
+	</tr>
+	<tr>
+		<td>2013</td>
+		<td>john</td>
+		<td>doe</td>
+		<td>95</td>
+		<td>6</td>
+		<td>120</td>
+		<td>.311</td>
+	</tr>
+</table>
 
 2014  john doe 102 8 145 .315
 
