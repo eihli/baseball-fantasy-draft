@@ -1,4 +1,10 @@
-#Strategy
+# Fantasy Baseball League Draft Analysis
+
+Probably going to do this with Python/Pandas.
+Started off with an IPython Notebook.
+[First Draft Analysis](http://nbviewer.ipython.org/github/eihli/baseball-fantasy-draft/blob/master/First.ipynb)
+
+##Strategy
 
 Here is a quick rundown of ideas.
 TODO: Clean up this readme with simple, precise, actionable steps
