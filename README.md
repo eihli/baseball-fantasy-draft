@@ -12,4 +12,4 @@ Players will then be ranked by points.
 
 Probably going to do this with Python/Pandas.
 Started off with an IPython Notebook.
-[First Draft Analysis](http://nbviewer.ipython.org/github/eihli/baseball-fantasy-draft/blob/master/First.ipynb)
+[Second Draft Analysis](http://nbviewer.ipython.org/github/eihli/baseball-fantasy-draft/blob/master/Simulated-Rankings.ipynb)
